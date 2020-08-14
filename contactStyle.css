@@ -7,3 +7,8 @@
     color: black;
     text-align: center;
 }
+
+.collapse-navbar-collapse {
+    margin-left: auto;
+    margin-right: auto; 
+}
