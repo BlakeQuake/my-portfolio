@@ -1,124 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <style></style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <title>Blake Lampkin</title>
+  </head>
+  <!-- NAVAGATION BAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://linktr.ee/blakequakebeats"
+      >BlakeQuake Beats</a
+    >
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarText"
+      aria-controls="navbarText"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse-navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">
+            Home <span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <section>
+      <h1 class="center">Portfolio</h1>
+      <hr />
+      <!-- 1ST ROW IMAGES  -->
 
-<head>
-
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel href="homework/homework2/portfolio.html" />
-  <link rel href="homework/homework2/contact.html" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <link rel="stylesheet" href="portfolioStyle.css" />
-  <title>Portfolio</title>
-
-</head>
-<!-- NAVAGATION BAR -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div></div>
-  <a class="navbar-brand" href="#">Blake Lampkin</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse-navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current); cla</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<main>
-  <section>
-    <h1>Portfolio</h1>
-    <hr>
-    <!-- 1ST ROW IMAGES  -->
-
-      <div class="container">
-        <div class="col-md-12">
-          <div class="row">
-              <div class="col-md-4">
-                    ONE <br>
-                    <img src="./assets/BQ6.jpg" alt="broken image" style="width:350px;height:350px;">
-                  </div>
-                    <div class="col-md-4">
-                      TWO <br>
-                      <img src="./assets/BQ6.jpg" alt="broken image" style="width:350px;height:350px;">
-                    <div class="col-md-4">
-                      THREE<br>
-                      <img src="./assets/BQ6.jpg" alt="broken image" style="width:350px;height:350px;">
-                    </div>
-                  </div>
-            </div>
-          </div>  
-            <br>
-              
-    <!-- 2ND ROW IMAGES  -->
-
-            <!-- <div class="row">
-              <div class="col-md-4">
-                1 of 3
-              </div>
-              <div class="col-md-4">
-                2 of 3
-              </div>
-              <div class="col-md-4">
-                3 of 3
-              </div>
-            </div>
+      <div class="container fluid col-md-12">
+        <div class="row">
+          <div class="col-md-4">
+            ONE<br />
+          <img
+            class="img-fluid"
+            src="./assets/BQ6.jpg"
+            alt="broken image"
+            style="width: 90%;box-shadow: 6px 5px 5px grey; border-radius:10px; height: auto"
+          />
+        </div>
+          <div class="col-md-4">
+            TWO<br />
+            <img
+              src="./assets/BQ6.jpg"
+              alt="broken image"
+              style="width: 90%;box-shadow: 6px 5px 5px grey; border-radius:10px; height: auto"
+            />
           </div>
-          </div> -->
-
-
-            <!-- <p>BLAKEQUAKE ONE</p>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-              </div>
-            
-                <img src="./assets/BQ6.jpg" alt="broken image" style="width:350px;height:350px;">
-              <div class="row">
-          <p>BLAKEQUAKE TWO</p>
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="col-md-4">
+              THREE<br />
+              <img
+                src="./assets/BQ6.jpg"
+                alt="broken image"
+                style="width: 90%;box-shadow: 6px 5px 5px grey; border-radius:10px; height: auto"
+              />
             </div>
-
-              <img src="./assets/BQ6.jpg" alt="broken image" style="width:350px;height:350px;">
-
-              <p>BLAKEQUAKE THREE</p>
-              <div class="col-md-4 col-sm-6 col-xs =-12">
-              </div>
-            </div>
+        </div>
       </div>
-                <img src="./assets/BQ6.jpg" alt="broken image" style="width:350px;height:350px;">
-                <div class="row">
+      <div class="container fluid col-md-12">
+        <div class="row">
+          <div class="col-md-4">
+            FOUR<br />
+          <img
+            class="img-fluid"
+            src="./assets/BQ6.jpg"
+            alt="broken image"
+            style="width: 90%;box-shadow: 6px 5px 5px grey; border-radius:10px; height: auto"
+          />
+        </div>
+          <div class="col-md-4">
+            FIVE<br />
+            <img
+              src="./assets/BQ6.jpg"
+              alt="broken image"
+              style="width: 90%;box-shadow: 6px 5px 5px grey; border-radius:10px; height: auto"
+            />
           </div>
-            <p>BLAKEQUAKE FOUR</p>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-              </div>
-  
-                <img src="./assets/BQ6.jpg" alt="broken image" style="width:350px;height:350px;">
-             
-                <p>BLAKEQUAKE FIVE</p>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                </div>
-    
-                  <img src="./assets/BQ6.jpg" alt="broken image" style="width:350px;height:350px;">
-                  <div class="row">
+            <div class="col-md-4">
+              SIX<br />
+              <img
+                src="./assets/BQ6.jpg"
+                alt="broken image"
+                style="width: 90%;box-shadow: 6px 5px 5px grey; border-radius:10px; height: auto"
+              />
             </div>
-              <p>BLAKEQUAKE SIX</p>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                </div>
-    
-                  <img src="./assets/BQ6.jpg" alt="broken image" style="width:350px;height:350px;">
-                
-  
-   -->
-            </section>
-</main>
-
+        </div>
+      </div>
+    </section>
+        <!-- COPY RIGHT TEXT -->
+        <div class="row" id="footer">
+          <div class="col-md-12 bg-light text-center img-fluid">
+              Copyright
+          </div>
+          </div>
+  </main>
 </html>
